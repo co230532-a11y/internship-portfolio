@@ -93,7 +93,7 @@ function App() {
     <div className="unified-container" id="app-viewport">
       {/* FIXED NAVIGATION FRAME */}
       <div className="nav-fixed-frame">
-        <div className="logo">KHAN</div>
+        <a href="/reflection" className="logo" style={{ textDecoration: 'none', color: 'inherit', cursor: 'pointer' }}>KHAN</a>
 
         <nav className="capsule-dock">
           <a
